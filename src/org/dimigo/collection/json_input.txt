@@ -1,0 +1,19 @@
+{
+	"name": "나자바",
+	"age": 25,
+	"address": {
+		"sido": "경기도 안산시",
+		"dong": "와동",
+		"detailAddress": "한국디미고"
+	},
+	"phoneNumbers": [
+		{
+			"type": "home",
+		    "number": "031-111-1111"
+		},
+		{
+			"type": "fax",
+			"number": "031-222-2222" 
+		}
+	]
+}

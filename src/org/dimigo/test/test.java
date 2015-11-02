@@ -14,7 +14,17 @@ package org.dimigo.test;
 public class test {
 
     public static void main(String[] args) {
-        System.out.println("Github Test");
+
+        System.out.println((((int)(Math.random() * 10) % 3) + 3) * 1000);
+        int random = (int)(Math.random() * 10) % 6 + 5;
+        random =((int) Math.random() * 10) % 6 + 5;
+        System.out.println(random);
+        System.out.println((((int) (Math.random() * 10) % 3) + 3) * 1000);
+        System.out.println((((int) (Math.random() * 10) % 3) + 3) * 1000);
+        System.out.println(((int)(Math.random() * 10) % 6 + 10));
+        System.out.println(((int)(Math.random() * 10) % 6 + 5) * 60000);
+        System.out.println((int)((Math.random() * 10) % 3) + 4);
+        System.out.println((int)((Math.random() * 10) % 3) * 10 + 40);
     }
 
 }
