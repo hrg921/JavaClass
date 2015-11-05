@@ -25,6 +25,8 @@ public class test {
         System.out.println(((int)(Math.random() * 10) % 6 + 5) * 60000);
         System.out.println((int)((Math.random() * 10) % 3) + 4);
         System.out.println((int)((Math.random() * 10) % 3) * 10 + 40);
+
+        RunnableOne runnableOne = new RunnableOne();
     }
 
 }
